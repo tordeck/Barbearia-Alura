@@ -1,0 +1,172 @@
+header{
+    padding: 20px 0;
+    background-color: #BBBBBB;
+}
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto; 
+}
+nav {
+    display: inline;
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;      
+}
+nav a {
+font-size: 22px;
+font-weight: bold;
+color: black;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: #C78C19;
+}
+
+main{   
+	width :940px;
+	margin: 0 auto;
+}
+
+.Produtos {
+    padding: 50px 0;
+    width: 100%;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Produtos li{
+    display: inline-block;
+    text-align:center;
+    position: relative;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 20px;
+}
+.Cabelo__Descricao{
+    text-align: center;
+    font-size: 18px;
+    
+
+}
+.Preco__Cabelo{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.Barba__Descricao{
+    text-align:center;
+    font-size:18px;
+}
+.Preco__Barba {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.Descricao__CabeloeBarba{
+    text-align:center;
+    font-size: 18px;
+    
+}
+
+.Preco__CabeloeBarba{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.Produtos li:hover{
+    border-color: #C78C19
+}
+.Produtos li:hover h2{
+    font-size: 34px;
+}
+
+form{
+    margin: 40px 0;
+}
+form label, form p{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;  
+}
+
+.input-padrao{ 
+    display: block; 
+    padding: 10px 25px;
+    width: 50%;
+    margin: 0 0 20px;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+footer{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    background-color: #BBBBBB;   
+}
+img.display{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.copyright{
+    text-align: center;
+    font-weight: bold;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    border: 2px solid black;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: orange;
+    color:white;
+    border: none;
+    border-radius: 0.5em;
+}
+
+.enviar:hover{
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: 1s all;
+    transform: scale(1.2);
+    background-color: orangered;      
+}
+table{
+    border: 1px solid black;
+    margin: 0 0 40px 0;
+}
+
+table th{
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    border: 1px solid black;
+}
+table td {   
+    padding: 10px;
+    border: 1px solid black;
+}
+
+
+
